@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FortisMart</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css"/>
+    <link href="/dist/output.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body>
+    <!-- Top navbar -->
+    <div>
+       <div class="topnavColor">
+        <div class="topnav container">
+            <div><h6>Welcome to Worldwide FortisMart</h6></div>
+            <div class="topNavuserOffer">
+                <p class="px-1">
+                    <i class="fa-solid fa-location-dot fs-5 mt-2"></i>
+                    <h6 class="ps-2">Deliver to 423631</h6>
+                </p>
+                <p  class="px-1">
+                    <i class="fa-solid fa-truck-fast fs-5 mt-2"></i>
+                    <h6 class="ps-2">Track your order</h4>
+                </p>
+                <p  class="px-1">
+                    <i class="fa-solid fa-percent fs-5 mt-2"></i>
+                    <h6 class="ps-2">All Offers</h6>
+                </p>
+            </div>
+           </div>
+       </div>
+       <!-- nav bar -->
+       <div>
+            <div class="navbar" style="padding: 2rem 0;">
+                <div>
+                    <h4 class="barntName">FortisMart</h4>
+                </div>
+                <div class="searchBoxDiv">
+                    <input type="text" placeholder="Search..." class="searchbox">
+                    <!-- <label class="searchicon"><i class="fa-solid fa-magnifying-glass"></i></i></label> -->
+                </div>
+                <div>
+                    <label class="btn btn-outline-dark mx-2"><i class="fa-regular fa-user px-2 text-info"></i>Sign Up/Sign In</label>
+                    <label class="btn btn-outline-dark mx-2"><i class="fa-brands fa-opencart px-2 text-info"></i>Cart</label>
+                </div>
+            </div>
+            <div class="searchBar" style="height: 3.3rem;">
+                <input type="text" placeholder="Search..." class="searchmobile">
+                <!-- <label class="searchicon"><i class="fa-solid fa-magnifying-glass"></i></i></label> -->
+            </div>
+       </div>
+       <div class="categoryList">
+            <div class="popupdiv category">
+                <div class='categoryImg'>
+                    <img src="https://i.postimg.cc/X739cgM0/Grocery.webp" alt="..." width="60px" height="60px"/>
+                </div>
+                <p>Grocery</p>
+            </div>
+            <div class="popupdiv category">
+                <div class='categoryImg'>
+                    <img src="https://i.postimg.cc/MTs4prV0/pngwing-com-11.png" alt="..." width="60px" height="60px"/>
+                </div>
+                <p>Mobiles</p>
+            </div>
+            <div class="popupdiv category">
+                <div class='categoryImg'>
+                    <img src="https://i.postimg.cc/jdZDfcgF/pngwing-com-12.png" alt="..." width="60px" height="60px"/>
+                </div>
+                <p>Fashion</p>
+            </div>
+            <div class="popupdiv category">
+                <div class='categoryImg'>
+                    <img src="https://i.postimg.cc/Kv482SFv/pngwing-com-13.png" alt="..." width="60px" height="60px"/>
+                </div>
+                <p>Electronics</p>
+            </div>
+            <div class="popupdiv category">
+                <div class='categoryImg'>
+                    <img src="https://i.postimg.cc/ncbfdCTx/travel.webp" alt="..." width="60px" height="60px"/>
+                </div>
+                <p>Travel</p>
+            </div>
+            <div class="popupdiv category">
+                <div class='categoryImg'>
+                    <img src="https://i.postimg.cc/k57p8CTx/pngwing-com-14.png" alt="..." width="60px" height="60px"/>
+                </div>
+                <p>Home&Furniture</p>
+            </div>
+            <div class="popupdiv category">
+                <div class='categoryImg'>
+                    <img src="https://i.postimg.cc/4xChdNWx/pngwing-com-15.png" alt="..." width="60px" height="60px"/>
+                </div>
+                <p>Toys</p>
+            </div>
+       </div>
+       <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item">
+                <img src="https://i.postimg.cc/90gz4fM8/banner2.webp" class="d-block w-100" alt="..." height="250px">
+            </div>
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img src="https://i.postimg.cc/R09QR3PN/banner.webp" class="d-block w-100" alt="..." height="250px">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="https://i.postimg.cc/Xq0QT2Lk/banner1.webp" class="d-block w-100" alt="..." height="250px">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="px-2 py-4">
+        <div class="productList px-2">
+            <label>Grab the best deal on <span class="text-info">SmartPhone</span></label>
+            <label>View All <i class="fa-solid fa-chevron-right text-info"></i></label>
+        </div>
+        <div class="cards">
+            <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000" class="card" style="width: 18rem;">
+                <img src="https://i.postimg.cc/Fsk52xcd/Galaxys22.webp" class=" cardImg card-img-top py-2 px-2" alt="..." width="200px" height="250px">
+                <div class="discount bg-info text-dark"><h4>32%</h4><br><label>Off</label></div>
+                <div class="card-body">
+                  <h4 class="card-title"><b>Galaxy s22 ultra</b></h4>
+                  <div style="display: flex;gap: 1rem;">
+                    <h5 class="card-title"><i class="fa-solid fa-indian-rupee-sign"></i>32999</h5>
+                    <h5 class="card-title" style="text-decoration: Line-through;"><i class="fa-solid fa-indian-rupee-sign"></i>32999</h5>  
+                  </div>
+                  <h6 class="text-success pt-4 ">Save -<i class="fa-solid fa-indian-rupee-sign"></i> 32999</h6>
+                </div>
+            </div>
+            <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000" class="card" style="width: 18rem;">
+                <img src="https://i.postimg.cc/GpnMm4NP/galaxys-fold5.webp" class="cardImg card-img-top py-2 px-2" alt="..." width="130px" height="250px">
+                <div class="discount bg-info text-dark"><h4>42%</h4><br><label>Off</label></div>
+                <div class="card-body">
+                  <h4 class="card-title"><b>Galaxy Fold 5 </b></h4>
+                  <div style="display: flex;gap: 1rem;">
+                    <h5 class="card-title"><i class="fa-solid fa-indian-rupee-sign"></i>59999</h5>
+                    <h5 class="card-title" style="text-decoration: Line-through;"><i class="fa-solid fa-indian-rupee-sign"></i>100000</h5>  
+                  </div>
+                  <h6 class="text-success pt-4 ">Save -<i class="fa-solid fa-indian-rupee-sign"></i> 40001</h6>
+                </div>
+            </div>
+            <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000" class="card" style="width: 18rem;">
+                <img src="https://i.postimg.cc/5yzfcPRq/galaxys-flip.webp" class="cardImg card-img-top py-2 px-2" alt="..." width="200px" height="250px">
+                <div class="discount bg-info text-dark"><h4>50%</h4><br><label>Off</label></div>
+                <div class="card-body">
+                  <h4 class="card-title"><b>Galaxy Z FLip3</b></h4>
+                  <div style="display: flex;gap: 1rem;">
+                    <h5 class="card-title"><i class="fa-solid fa-indian-rupee-sign"></i>69999</h5>
+                    <h5 class="card-title" style="text-decoration: Line-through;"><i class="fa-solid fa-indian-rupee-sign"></i>129999</h5>  
+                  </div>
+                  <h6 class="text-success pt-4 ">Save -<i class="fa-solid fa-indian-rupee-sign"></i> 60000</h6>
+                </div>
+            </div>
+            <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000" class="card" style="width: 18rem;">
+                <img src="https://i.postimg.cc/VkwgydV3/galxy-s21.webp" class="cardImg card-img-top py-2 px-2" alt="..." width="200px" height="250px">
+                <div class="discount bg-info text-dark"><h4>30%</h4><br><label>Off</label></div>
+                <div class="card-body">
+                  <h4 class="card-title"><b>Galaxy S21 FE</b></h4>
+                  <div style="display: flex;gap: 1rem;">
+                    <h5 class="card-title"><i class="fa-solid fa-indian-rupee-sign"></i>32999</h5>
+                    <h5 class="card-title" style="text-decoration: Line-through;"><i class="fa-solid fa-indian-rupee-sign"></i>59999</h5>  
+                  </div>
+                  <h6 class="text-success pt-4 ">Save -<i class="fa-solid fa-indian-rupee-sign"></i> 27000</h6>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class=" py-4">
+        <div class="productList px-2">
+            <label>Top <span class="text-info">Electronics Brands</span></label>
+            <label>View All <i class="fa-solid fa-chevron-right text-info"></i></label>
+        </div>
+        <div class="cards my-5 mx-3">
+                <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000" class="brantback row">
+                    <div class="colstyle col">
+                       <div class="d-flex flex-column">
+                        <label class="text-light text-center">I Phone</label>
+                        <div style="display: flex;justify-content: center;align-items: center;">
+                            <img src="https://i.postimg.cc/pdDnT1jr/pngwing-com-16.png" alt="..." width="60px" height="60px"/>
+                        </div>
+                        <label class="text-light text-center">Up to 80% Off</label>
+                       </div>
+                    </div>
+                    <div  class="popupdiv colstyle col">
+                        <img src="https://i.postimg.cc/hGGr6d3p/Apple-Iphone-15-Blue-PNG.png" alt="..." width="105rem" height="125rem"/>
+                    </div>
+                </div>
+                <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000" class="brantback row">
+                    <div class="colstyle col">
+                       <div class="d-flex flex-column">
+                        <label class="text-light text-center">I Phone</label>
+                        <div style="display: flex;justify-content: center;align-items: center;">
+                            <img src="https://i.postimg.cc/pdDnT1jr/pngwing-com-16.png" alt="..." width="60px" height="60px"/>
+                        </div>
+                        <label class="text-light text-center">Up to 80% Off</label>
+                       </div>
+                    </div>
+                    <div class="popupdiv colstyle col">
+                        <img src="https://i.postimg.cc/hGGr6d3p/Apple-Iphone-15-Blue-PNG.png" alt="..." width="105rem" height="125rem"/>
+                    </div>
+                </div>
+                <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000" class="brantback row">
+                    <div class="colstyle col">
+                       <div class="d-flex flex-column">
+                        <label class="text-light text-center">I Phone</label>
+                        <div style="display: flex;justify-content: center;align-items: center;">
+                            <img src="https://i.postimg.cc/pdDnT1jr/pngwing-com-16.png" alt="..." width="60px" height="60px"/>
+                        </div>
+                        <label class="text-light text-center">Up to 80% Off</label>
+                       </div>
+                    </div>
+                    <div class="popupdiv colstyle col">
+                        <img src="https://i.postimg.cc/hGGr6d3p/Apple-Iphone-15-Blue-PNG.png" alt="..." width="105rem" height="125rem"/>
+                    </div>
+                </div>
+        </div>
+      </div>
+        <div class=" py-4">
+            <div class="productList px-2">
+                <label>Daily <span class="text-info">Essentials</span></label>
+                <label>View All <i class="fa-solid fa-chevron-right text-info"></i></label>
+            </div>
+            <div class="cards mx-2">
+                <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000" class="popupdiv grocerycard card" style="width: 18rem;">
+                    <img src="https://i.postimg.cc/hj8GkcPs/pngwing-com-17.png" class="card-img-top" alt="..." height="200rem">
+                    <div class="grocery card-body">
+                      <h5 class="card-title">Daily Essentials</h5>
+                      <h4 class="card-text">Up to 50% OFF</h4>
+                    </div>
+                </div>
+                <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000" class="popupdiv grocerycard card" style="width: 18rem;">
+                    <img src="https://i.postimg.cc/brB94KT6/pngwing-com-18.png" class="card-img-top" alt="..." height="200rem">
+                    <div class="grocery card-body">
+                      <h5 class="card-title">Vegetables</h5>
+                      <h4 class="card-text">Up to 60% OFF</h4>
+                    </div>
+                </div>
+                <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000" class="popupdiv grocerycard card" style="width: 18rem;">
+                    <img src="https://i.postimg.cc/Xvmw4TBm/pngwing-com-19.png" class="card-img-top" alt="..." height="200rem">
+                    <div class="grocery card-body">
+                      <h5 class="card-title">Fruits</h5>
+                      <h4 class="card-text">Up to 40% OFF</h4>
+                    </div>
+                </div>
+                <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000" class="popupdiv grocerycard card" style="width: 18rem;">
+                    <img src="https://i.postimg.cc/qvyRNqqk/pngwing-com-20.png" class="card-img-top" alt="..." height="200rem">
+                    <div class="grocery card-body">
+                      <h5 class="card-title">Banana</h5>
+                      <h4 class="card-text">Up to 0% OFF</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footermain">
+            <div class="footer-nav">
+                <label>Home</label>
+                <label>Electronics</label>
+                <label>Mobiles</label>
+                <label>Fashion</label>
+                <label>Grocery</label>
+                <label>Travel</label>
+                <label>Toys</label>
+            </div>
+            <p class="text-center my-5">© 2020 Your Company, Inc. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+    <script>
+        AOS.init();
+    </script>
+</html>
