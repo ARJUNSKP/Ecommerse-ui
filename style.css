@@ -57,8 +57,9 @@
 }
 .categoryList{
     padding: 0 2rem;
+    width: 100vw;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .productList{
     display: flex;
@@ -66,7 +67,7 @@
     align-items: center;
 }
 .productList label{
-    font-size: clamp(16px,50vw,22px);
+    font-size: clamp(13px, 10vw, 16px);
 }
 .popupdiv :hover{
     transform: scale(1.1);
@@ -88,11 +89,13 @@
     padding: 0 2rem;
 }
 .cards{
+    height: auto;
     display: flex;
     justify-content: center;
     gap: 3rem;
     align-items: center;
     flex-wrap: wrap;
+    overflow-y: hidden;
 }
 .brantback{
     background-color: #040400;
